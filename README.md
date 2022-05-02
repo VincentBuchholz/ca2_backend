@@ -10,5 +10,9 @@ Steps to use this template:
 
 5. change test database name and check branch name in workflow.yml
 
-6. select database to use locally 
+6. set repository secrets
+
+7. select database to use locally 
+
+
 
