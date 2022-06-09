@@ -10,10 +10,11 @@ public class JWTSecurityContext implements SecurityContext {
        this.user = user;
        this.request = request;
    }
-   @Override
-   public boolean isUserInRole(String role) {
-       return user.isUserInRole(role);
-   }
+    @Override
+    public boolean isUserInRole(String role) {
+        return user.isUserInRole(role);
+    }
+
    @Override
    public boolean isSecure() {
        return request.getUriInfo().getBaseUri().getScheme().equals("https");
