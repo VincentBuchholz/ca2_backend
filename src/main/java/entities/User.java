@@ -36,6 +36,7 @@ public class User implements Serializable {
   private Role role;
 
 
+
   public User() {}
 
    public boolean verifyPassword(String pw){
